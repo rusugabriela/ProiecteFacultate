@@ -1,0 +1,50 @@
+.dialog {
+	width:300px;
+}
+
+ul.dialog li::after {
+	content: '';
+	display: block;  
+	position: absolute;
+	right: 100%;
+	top: 30%;
+	margin-top: -10px;
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-right: 10px solid ;
+	border-bottom: 10px solid transparent;
+	border-left: 10px solid transparent;
+}
+
+ul.dialog li {
+	list-style-type: none;
+	border-style: solid;
+    border-width: 2px;
+    border-radius: 25px;
+    margin:5px 5px 5px 75px;
+    padding:10px;
+    text-align: center;
+    position: relative;
+    min-height: 60px;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.alice::before, .bob::before {
+	background-image: url('spriteimg.png');
+	background-repeat: no-repeat;
+	content:" ";
+ 	width:90px;
+ 	height: 90px;
+ 	position: absolute;
+ 	top:0px;
+ 	left:-100px;
+}
+
+.alice::before {
+ 	background-position: 0px 0px;
+}
+
+.bob::before {
+ 	background-position: -89px 0px;
+}

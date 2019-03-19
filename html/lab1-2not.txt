@@ -1,0 +1,345 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Formular programare salon de frumusete</title>
+</head>
+
+<body>
+<img src="roz.jpg" alt="salon" width="1300" height="100">
+
+<h2 >Pentru programare completa&#355;i acest formular!</h2>
+<p >* campuri obligatorii.</p><br>
+
+<form action="#" method="GET">
+<table >
+<tr>
+<th colspan="6" >
+<strong>Date personale</strong>
+</th>
+</tr>
+<tr>
+<td >
+<span > Nume*: </span>
+</td>
+<td >
+<input type="text" name="nume" maxlength="10" >
+</td>
+<td >
+<span> Prenume*: </span>
+</td>
+<td>
+<input type="text" name="prenume">
+</td>
+<td>
+<span>Sex*:</span>
+</td>
+<td>
+<span>M:</span>
+<input type="radio" name="sex" id="M" checked>
+<span>F:</span>
+<input type="radio" name="sex" id="F">
+</td>
+</tr>
+<tr>
+<td >
+<span> Adres&#259;*: </span>
+</td>
+<td>
+<input type="text" name="adresa" size="20">
+</td>
+<td >
+<span> Jude&#355;*: </span>
+</td>
+<td>
+<select>
+<option value="alba">ALBA</option>
+<option value="arad">ARAD</option>
+<option value="arges">ARGE&#350;</option>
+<option value="bacau">BAC&#258;U</option>
+<option value="bihor">BIHOR</option>
+<option value="bistrita">BISTRI&#354;A-NAS&#258;UD</option>
+<option value="botosani">BOTO&#350;ANI</option>
+<option value="braila">BR&#258;ILA</option>
+<option value="brasov">BRA&#350;OV</option>
+<option value="buzau">BUZ&#258;U</option>
+<option value="calarasi">C&#258;L&#258;RA&#350;I</option>
+<option value="caras">CARA&#350;-SEVERIN</option>
+<option value="cluj" selected>CLUJ</option>
+<option value="constanta">CONSTAN&#354;A;</option>
+<option value="covasna">COVASNA</option>
+<option value="dimbovita">DIMBOVI&#354;A</option>
+<option value="dolj">DOLJ</option>
+<option value="galati">GALA&#355;I</option>
+<option value="giurgiu">GIURGIU</option>
+<option value="gloj">GORJ</option>
+<option value="harghita">HARGHITA</option>
+<option value="hunedoara">HUNEDOARA</option>
+<option value="ialomita">IALOMI&#35;A</option>
+<option value="iasi">IA&#350;I</option>
+<option value="ilfov">ILFOV</option>
+<option value="maramures">MARAMURE&#350;</option>
+<option value="mehedinti">MEHEDIN&#354;I</option>
+<option value="mures">MURE&#350;</option>
+<option value="neamt">NEAM&#354;</option>
+<option value="olt">OLT</option>
+<option value="prohova">PRAHOVA</option>
+<option value="salaj">SLAJ</option>
+<option value="satu">SATU MARE</option>
+<option value="sibiu">SIBIU</option>
+<option value="suceava">SUCEAVA</option>
+<option value="teleorman">TELEORMAN</option>
+<option value="timis">TIMI&#350;</option>
+<option value="tulcea">TULCEA</option>
+<option value="vaslui">VASLUI</option>
+<option value="vilcea">VILCEA</option>
+<option value="vrancea">VRANCEA</option>
+</select>
+</td>
+<td >
+<span > Ora&#351;*: </span>
+</td>
+<td >
+<input type="text" name="oras" >
+<tr>
+<td >
+<span > Email*: </span>
+</td>
+<td >
+<input type="text" name="email" >
+</td>
+<td >
+<span > Telefon*: </span>
+</td>
+<td >
+<input type="number" name="tefefon" max="10" >
+</td>
+<td >
+<span> Fix: </span>
+</td>
+<td>
+<input type="text" name="telefonFix" disabled value="-" readonly >
+</td>
+</tr>
+<tr >
+<td colspan="6" >
+<div><b>Programare</b></div>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<table >
+<tr>
+<th colspan="3" >
+Data si ora programarii
+</th>
+</tr>
+<tr>
+<td>
+Data: 
+</td>
+<td colspan="2">
+<input type="number" name="data" step="1">
+</td>
+</tr>
+<tr>
+<td rowspan="5">
+Ora:
+</td>
+<td>
+13:00
+</td>
+<td>
+<input type="checkbox" name="13" >
+</td>
+</tr>
+<tr >
+<td>
+<span>14:00</span>
+</td>
+<td>
+<input type="checkbox" name="15">
+</td> 
+</tr>
+<tr>
+<td>
+<span>15:00</span>
+</td>
+<td>
+<input type="checkbox" name="15">
+</td> 
+</tr>
+<tr>
+<td>
+<span>16:00</span>
+</td>
+<td>
+<input type="checkbox" name="16">
+</td> 
+</tr>
+<tr >
+<td>
+<span>18:00</span>
+</td>
+<td>
+<input type="checkbox" name="18">
+</td> 
+</tr>
+</table>
+</td>
+<td colspan="4">
+<table >
+<tr>
+<th colspan="3">
+Tratamente
+</th>
+</tr>
+<tr >
+<td rowspan="3" >
+<span> Facial </span>
+</td>
+<td>
+Microcuren&#355;i bio
+</td>
+<td>
+<input type="checkbox" name="micro">
+</td>
+</tr>
+<tr>
+<td>
+Ultrasunete faciale
+</td>
+<td>
+<input type="checkbox" name="ultra">
+</td>
+</tr>
+<tr>
+<td>
+Peeling chimic
+</td>
+<td>
+<input type="checkbox" name="peeling">
+</td>
+</tr>
+<tr >
+<td rowspan="5" >
+<span> Corporale </span>
+</td>
+<td>
+Radiofrecven&#355;a
+</td>
+<td>
+<input type="checkbox" name="radiofrecv">
+</td>
+</tr>
+<tr>
+<td>
+Cavita&#355;ia 40k
+</td>
+<td>
+<input type="checkbox" name="cavitatie">
+</td>
+</tr>
+<tr>
+<td >
+Criolipoliza
+</td>
+<td>
+<input type="checkbox" name="crio">
+</td>
+</tr>
+<tr>
+<td>
+Epilare clasic&#259;
+</td>
+<td>
+<input type="checkbox" name="epilareC">
+</td>
+</tr>
+<tr>
+<td>
+Epilare definitiva
+</td>
+<td>
+<input type="checkbox" name="epilareD">
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan="6" >
+<div>
+<b>Pre&#355;uri</b>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan="6" >
+<table>
+<tr>
+<th >
+<ul>
+<li> <b>Tratament facial</b>
+<ol type="a" start="2">
+<li>Microcuren&#355;i bio: 40 lei</li>
+<li>Ultrasunete faciale: 100 lei</li>
+<li>Peeling chimic: 70 lei</li>
+</ol>
+</li>
+</ul>
+</th>
+<th >
+<ul>
+<li><b>Tratament corporal</b>
+<ol type="i">
+<li>Radiofrecven&#355;a: 80 lei</li>
+<li>Cavita&#355;ia 40k: 100 lei</li>
+<li>Criolipoliza: 120 lei</li>
+<li>Epilare clasic&#259;: 70 lei</li>
+<li>Definitiv&#259;: 120 lei/sesiune</li>
+</ol>
+</li>
+</ul>
+</th>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td >
+Observa&#355;ii
+</td>
+<td colspan="2">
+<textarea rows="7" cols="32" name="obs">Pentru alte observa&#355;ii completa&#355;i aici...</textarea> 
+</td>
+<td >
+Propuneri
+</td>
+<td colspan="2">
+<select multiple>
+<option value="alba">Masaj cu pietre</option>
+<option value="arad">Masaj pentru dureri de spate</option>
+<option value="arad">Masaj pentru dureri de talpi</option>
+<option value="arad">Masaj pentru dureri de gat</option>
+<option value="arad">Tratament cu galbenele</option>
+</select>
+<br>
+<span>Pentru a selecta mai multe tine&#355;i</span><br>
+<span>CTRL apasat si selecta&#355;i</span>
+</td>
+</tr>
+<tr>
+<td colspan="6">
+<span > Pentru mai multe informa&#355;ii apasa&#355;i </span>
+<a href="http://beautifysalon.ro/" target="_blank">aici</a>
+</td> 
+</tr>
+<tr>
+<td colspan="6" >
+<input type="button" value="Trimite">
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>

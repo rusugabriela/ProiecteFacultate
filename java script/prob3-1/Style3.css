@@ -1,0 +1,18 @@
+div#memory_board{
+	width: 800px;
+	height: 535px;
+	margin: 0px auto;
+}
+
+div#memory_board > div{
+	background-image: url(unmatched.jpg);
+	background-size: cover;
+	width: 71px;
+	height: 71px;
+	float: left;
+	margin: 10px;
+	padding: 20px;
+	font-size: 64px;
+	cursor: pointer;
+	text-align: center;
+}

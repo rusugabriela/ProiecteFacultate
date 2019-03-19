@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> PROBLEMA 4 </title>
+		<style>
+			table {
+				border-collapse: collapse;
+				border-spacing: 0;
+				width: 100%;
+				border: 0;
+			}
+			th {
+				cursor: pointer;
+			}
+			th, td {
+				text-align: center;
+				padding: 20px;
+				display: block;
+			}
+			tr {
+				display: block;
+				float: left;
+			}
+			tr th:nth-child(even){
+				background-color: #9cec9c;
+			}
+			tr td:nth-child(even){
+				background-color: #9cec9c;
+			}
+		</style>
+	</head>
+	<body>
+		<table id = "tabel">
+			<tr>
+				<th onclick = "sort()"> Fructe </th>
+				<th onclick = "sortare(1)"> Pret </th>
+				<th onclick = "sortare(2)"> Cantitate </th>
+			</tr>
+			<tr >
+				<td> Mere </td>
+				<td> 30 </td>
+				<td> 4</td>
+			</tr>
+			<tr>
+				<td> Pere </td>
+				<td> 20 </td>
+				<td> 3 </td>
+			</tr>
+			<tr>
+				<td> Struguri</td>
+				<td> 10 </td>
+				<td> 2 </td>
+			</tr>
+			<tr>
+				<td> Banane </td>
+				<td> 15 </td>
+				<td> 1 </td>
+			</tr>
+		</table>
+		
+		<script src = "p4.js"> </script>
+	</body>
+</html>

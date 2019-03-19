@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>Laboratorul2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<ul class="group">
+    <li>
+        <a href="#" class="facebook"></a>
+    </li>
+    <li>
+        <a href="#" class="dotdot"></a>
+    </li>
+    <li>
+        <a href="#" class="basketball"></a>
+    </li>
+    <li>
+        <a href="#" class="google"></a>
+    </li>
+    <li>
+        <a href="#" class="in"></a>
+    </li>
+    <li>
+        <a href="#" class="pinterest"></a>
+    </li>
+    <li>
+        <a href="#" class="wifi"></a>
+    </li>
+    <li>
+        <a href="#" class="skype"></a>
+    </li>
+    <li>
+        <a href="#" class="tweeter"></a>
+    </li>
+    <li>
+        <a href="#" class="vimeo"></a>
+    </li>
+    <li>
+        <a href="#" class="youtube"></a>
+    </li>
+</ul>
+</body>
+</html>

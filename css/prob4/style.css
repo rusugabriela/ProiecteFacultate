@@ -1,0 +1,98 @@
+li {
+    list-style: none;
+}
+
+.facebook, .dotdot,.basketball, .google, .in, .pinterest, .wifi, .skype, .tweeter, .vimeo, .youtube {
+    background: url("sprite.png");
+    display: block;
+    height: 83px;
+    width: 83px;
+    /*text-indent: -99999px;*/
+}
+.facebook {
+    background-position: 0px -85px;
+}
+
+.dotdot {
+    background-position: -85px -85px;
+}
+
+.basketball {
+    background-position: -170px -85px;
+}
+
+.google {
+    background-position: -251px -85px;
+}
+
+.in {
+    background-position: -336px  -85px;
+}
+
+.pinterest {
+    background-position: -420px -85px;
+}
+
+.wifi {
+    background-position: -504px -85px;
+}
+
+.skype {
+    background-position: -590px -85px;
+}
+
+.tweeter {
+    background-position: -673px -85px;
+}
+
+.vimeo {
+    background-position: -756px -85px;
+}
+
+.youtube {
+    background-position: -840px -85px;
+}
+
+.facebook:hover, .facebook:focus {
+    background-position: 0 0;
+}
+
+.dotdot:hover, .dotdot:focus {
+    background-position: -85px 0;
+}
+
+.basketball:hover, .basketball:focus {
+    background-position: -170px 0;
+}
+
+.google:hover, .google:focus {
+    background-position: -251px 0;
+}
+
+.in:hover, .in:focus {
+    background-position: -336px  0;
+}
+
+.pinterest:hover, .pinterest:focus {
+    background-position: -420px 0;
+}
+
+.wifi:hover, .wifi:focus {
+    background-position: -504px 0;
+}
+
+.skype:hover, .skype:focus {
+    background-position: -590px 0;
+}
+
+.tweeter:hover, .tweeter:focus {
+    background-position: -673px 0;
+}
+
+.vimeo:hover, .vimeo:focus {
+    background-position: -756px 0;
+}
+
+.youtube:hover, .youtube:focus {
+    background-position: -840px 0;
+}

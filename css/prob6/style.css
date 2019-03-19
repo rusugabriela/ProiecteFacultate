@@ -1,0 +1,43 @@
+.inp {
+    background-image: url("http://3.bp.blogspot.com/-4oAWWCcNNz4/Tjr3nKNyVUI/AAAAAAAAPLU/Pouua-pNsEY/s1600/sq.gif");    
+    width: 395px;
+    height: 18px;
+    background-size: 20px;
+    border: none;
+    font-family: monospace;
+    font-size: 13px;
+    padding-left: 5px;
+    letter-spacing: 12px;
+}
+.inp2 {
+    background-image: url("http://3.bp.blogspot.com/-4oAWWCcNNz4/Tjr3nKNyVUI/AAAAAAAAPLU/Pouua-pNsEY/s1600/sq.gif");    
+    width: 255px;
+    height: 18px;
+    background-size: 20px;
+    border: none;
+    font-family: monospace;
+    font-size: 13px;
+    padding-left: 5px;
+    letter-spacing: 12px;
+}
+label {
+    padding: 5px 5px 5px 0;
+    display: inline-block;
+}
+.col1{
+    float: left;
+    width: 5%;
+    margin-top: 6px;
+    text-align: right;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col2 {
+    float: left;
+    width: 10%;
+    margin-top: 6px;
+}

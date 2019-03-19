@@ -1,0 +1,27 @@
+ul {
+    border: 1px solid;
+    width: 420px;
+    list-style-type: none;
+    padding:5px;
+    float: left;
+}
+
+li {
+
+    display:inline-block;
+    text-align: center;
+    margin:10px;
+}
+
+figure {
+    background-color: #00ffff;
+    margin:5px;
+}
+
+
+.portret {
+    height: 200px;
+    width: 150px;
+    padding:5px;
+    margin:10px;
+}

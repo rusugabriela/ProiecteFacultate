@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Problema 1</title>
+
+</head>
+<body>
+
+
+<select class="list" title="list1" size=10 >
+    <option value="a">a</option>
+    <option value="b">b</option>
+    <option value="c">c</option>
+    <option value="d">d</option>
+    <option value="e">e</option>
+    <option value="f">f</option>
+</select>
+<select class="list" title="list2" size=10>
+    <option value="g">g</option>
+    <option value="h">h</option>
+    <option value="i">i</option>
+    <option value="j">j</option>
+</select>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $(".list").dblclick(function () {
+            var val = $(this).find(':selected');
+            $(this).siblings().append('<option value="1">' + val.text() + '</option>');
+            val.remove();
+        });
+    })
+</script>
+
+
+</body>
+</html>
